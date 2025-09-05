@@ -1,0 +1,1 @@
+console.log("“Om Krishnaya Vasudevaya Haraye Paramatmane, Pranata: Kleshanashaya Govindaya Namo Nama:”");
