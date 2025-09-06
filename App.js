@@ -5,3 +5,4 @@ let FatherName = process.argv[2];
 let MotherName = process.argv[3];
 let BrotherName = process.argv[4];
 console.log(`Father Name: ${FatherName}\nMother Name: ${MotherName}\nBrother Name: ${BrotherName}\n`);
+console.log(`Father Name: ${FatherName}\nMother Name: ${MotherName}\nBrother Name: ${BrotherName}\n`);
