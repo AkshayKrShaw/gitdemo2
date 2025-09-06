@@ -6,4 +6,4 @@ let AppObj={
     MotherName: process.argv[3],
     BrotherName: process.argv[4]
 }
-console.log(`Father Name: ${FatherName}\nMother Name: ${MotherName}\nBrother Name: ${BrotherName}\n`);
+
