@@ -1,9 +1,20 @@
 console.log("Om Namo Bhagwate Vasudevay Namah");
 console.log("“Om Krishnaya Vasudevaya Haraye Paramatmane, Pranata: Kleshanashaya Govindaya Namo Nama:”");
-console.log(process.argv);
-let AppObj={
-    FatherName: process.argv[2],
-    MotherName: process.argv[3],
-    BrotherName: process.argv[4]
+let sum=(a,b)=>{
+    return a+b;
 }
-
+let sub=(a,b)=>{
+    return a-b;
+}
+let mul=(a,b)=>{
+    return a*b;
+}
+let div=(a,b)=>{
+    return a/b;
+}
+module.exports = {
+    add,
+    sub,
+    mul,
+    div
+};
