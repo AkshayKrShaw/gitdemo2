@@ -13,8 +13,8 @@ let div=(a,b)=>{
     return a/b;
 }
 module.exports = {
-    add,
-    sub,
+    sum : sum,
+    sub : sub,
     mul,
     div
 };
