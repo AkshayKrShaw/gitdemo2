@@ -8,6 +8,6 @@ let merecedes=require("./Mercedes.js");
 let rollsroyes=require("./Rolls-Royce.js");
 
 
-let brand=[audi,bmw,buggati,ferrari,koenigsegg,lamborghini,merecedes,rollsroyes];
+let brand={audi,bmw,buggati,ferrari,koenigsegg,lamborghini,merecedes,rollsroyes};
 
 module.exports=brand;
