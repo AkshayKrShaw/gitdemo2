@@ -1,4 +1,4 @@
-module.exports = {
+export let lamborghini = {
     brandName: "Lamborghini",
     Country: "Italy",
 }
