@@ -15,6 +15,6 @@ let div=(a,b)=>{
 module.exports = {
     sum : sum,
     sub : sub,
-    mul,
-    div
+    mul : mul,
+    div : div
 };
