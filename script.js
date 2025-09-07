@@ -1,7 +1,10 @@
-console.log("Eadhe Radhe......");
+console.log("Radhe Radhe......");
 let math=require("./App.js");
 
-console.log(math.sum(2,3));
-console.log(math.sum(33,3));
-console.log(math.sum(2,3));
-console.log(math.sum(3,3));
+console.log(`Additon: ${math.sum(2,3)}`);
+console.log(`Subtraction: ${math.sub(33,3)}`);
+console.log(`multiplication: ${math.mul(2,3)}`);
+console.log(`Division: ${math.div(3,3)}`);
+
+let cars=require("./Cars");
+console.log(cars)
