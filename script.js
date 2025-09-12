@@ -1,10 +1,12 @@
 console.log("Radhe Radhe......");
-let math=require("./App.js");
+import {sum,sub,mul,div} from "./App.js"
 
-console.log(`Additon: ${math.sum(2,3)}`);
-console.log(`Subtraction: ${math.sub(33,3)}`);
-console.log(`multiplication: ${math.mul(2,3)}`);
-console.log(`Division: ${math.div(3,3)}`);
+console.log(`Additon: ${sum(2,3)}`);
+console.log(`Subtraction: ${sub(33,3)}`);
+console.log(`multiplication: ${mul(2,3)}`);
+console.log(`Division: ${div(3,3)}`);
 
-let cars=require("./Cars");
-console.log(cars)
+
+import { brand } from "./Cars/index.js";
+// let cars=require("./Cars");
+console.log(brand)
